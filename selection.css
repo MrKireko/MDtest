@@ -1,0 +1,15 @@
+#openbtn::selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openbtn::-moz-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openbtn::-webkit-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openbtn::-o-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
