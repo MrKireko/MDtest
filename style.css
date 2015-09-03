@@ -33,7 +33,7 @@ html, body {
 }
 
 #openbtn {
-    font-family: Roboto Mono;
+    font-family: robotomono;
     font-weight: lighter;
     font-size: 5em;
     display: inline-block;

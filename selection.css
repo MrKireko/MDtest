@@ -13,3 +13,19 @@
 #openbtn::-o-selection {
     background-color: rgba(0, 0, 0, 0);
 }
+
+#ctrl *::selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ctrl *::-moz-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ctrl *::-webkit-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ctrl *::-o-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
