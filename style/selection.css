@@ -29,3 +29,19 @@
 #ctrl *::-o-selection {
     background-color: rgba(0, 0, 0, 0);
 }
+
+#openm::selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openm::-moz-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openm::-webkit-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#openm::-o-selection {
+    background-color: rgba(0, 0, 0, 0);
+}
