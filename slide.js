@@ -28,13 +28,14 @@ $(document).ready(function(){
     
     $("#openm").click(function(){
         if (!openm) {
-            $("#wrap").css("transform", "rotate(10deg) scale(0.95)");
+            $("#wrap").css("transform", "rotate(15deg) scale(0.95)");
             $("body").css("overflow", "hidden");
+            $("#bgtext").css("opacity", "1");
             $("#openm").html("CLOSE");
             openm = true;
         }else{
             $("#wrap").css("transform", "rotate(0deg) scale(1)");
-            setTimeout(function(){ $("body").css("overflow", "visible"); }, 201);
+            setTimeout(function(){ $("body").css("overflow", "visible"); }, 250);
             $("#openm").html("OPEN");
             openm = false;
         }
